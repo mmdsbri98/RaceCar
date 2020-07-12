@@ -1,0 +1,38 @@
+.wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.box{
+    width: 43px;
+    height: 43px;
+    background-color: grey;
+    border:1px black solid;
+}
+.car{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: chartreuse;
+    text-align: center;
+    padding: 5px;
+}
+.btn{
+    width: 100px;
+    height: 50px;
+    font-family: cursive;
+    background-color: lightgreen;
+    text-align: center;
+    padding:5px ;
+    border-radius: 6px;
+    border: lightgreen;
+    margin-top: 3px;
+}
+.box-end{
+    background-color: red;
+    font-family: cursive;
+}
+.box-start{
+    background-color:blue
+}
